@@ -1,0 +1,6 @@
+{
+  "name": "Xác Thực Sổ Đỏ OCR",
+  "description": "Ứng dụng nhập thông tin thửa đất, CCCD, số điện thoại và tự động trích xuất thông tin từ ảnh chụp/scan sổ đỏ để so khớp kiểm tra tính chính xác tức thì bằng công nghệ OCR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

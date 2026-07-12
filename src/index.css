@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@keyframes scanLineAnimation {
+  0% {
+    top: 0%;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+@keyframes bounceSlowAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes spinSlowAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-scan-line {
+  position: absolute;
+  animation: scanLineAnimation 3s ease-in-out infinite;
+}
+
+.animate-bounce-slow {
+  animation: bounceSlowAnimation 3s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spinSlowAnimation 8s linear infinite;
+}
+
